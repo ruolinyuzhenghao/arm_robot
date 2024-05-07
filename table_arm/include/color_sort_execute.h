@@ -1,5 +1,5 @@
-#ifndef __WHEELTEC_ARM_H_
-#define __WHEELTEC_ARM_H_
+#ifndef __TABLE_ARM_H_
+#define __TABLE_ARM_H_
 
 #include <ros/ros.h>
 #include <iostream>
