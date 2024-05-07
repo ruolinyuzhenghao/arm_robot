@@ -14,3 +14,4 @@ rosrun table_arm find_haishen
 ```
 ## 个人教程
 机械臂配置教程：https://www.yuque.com/g/ruolinyuzhenghao/burc03/txm6oauu6fg9yu3v/collaborator/join?token=JuUUjamC7TxvsiEt&source=doc_collaborator#
+
