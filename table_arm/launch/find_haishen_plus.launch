@@ -1,0 +1,13 @@
+<launch>
+  <rosparam command="load" file="$(find table_arm)/config/ik.yaml" />
+
+  <include file='$(find arm_config)/launch/demo.launch' />
+
+  <include file="$(find table_arm)/launch/base_serial.launch" />
+
+  <node name='main' pkg="table_arm" type="main.py" output="screen">
+  </node>
+  <node name='pick_color' pkg="table_arm" type="color_sort_execute_plus" output="screen">
+  </node>
+  
+</launch>
